@@ -115,4 +115,17 @@ python example_files/predict.py models/linear_regression_model.sav data/X_test.c
 
 Development libraries are part of the production environment, normally these would be separate as the production code should be as slim as possible.
 
+# Definitions of the features in our Dataset
 
+__country:__ Country interviewee is in.
+__year:__ Year survey was done in.
+__uniqueid:__ Unique identifier for each interviewee
+__location_type:__ Type of location: Rural, Urban
+__cellphone_access:__ If interviewee has access to a cellphone: Yes, No
+__household_size:__ Number of people living in one house
+__age_of_respondent:__ The age of the interviewee
+__gender_of_respondent:__ Gender of interviewee: Male, Female
+__relationship_with_head:__ The interviewee’s relationship with the head of the house:Head of Household, Spouse, Child, Parent, Other relative, Other non-relatives, Dont know
+__marital_status:__ The martial status of the interviewee: Married/Living together, Divorced/Seperated, Widowed, Single/Never Married, Don’t know
+__education_level:__ Highest level of education: No formal education, Primary education, Secondary education, Vocational/Specialised training, Tertiary education, Other/Dont know/RTA
+__job_type:__ Type of job interviewee has: Farming and Fishing, Self employed, Formally employed Government, Formally employed Private, Informally employed, Remittance Dependent, Government Dependent, Other Income, No Income, Dont Know/Refuse to answer"
