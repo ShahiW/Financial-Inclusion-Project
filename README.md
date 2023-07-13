@@ -8,10 +8,10 @@
 
 ## Introduction
 We are:
-* Ana (add a short sentence to your person here)
-* Christian (add)
-* Klaus (add)
-* Shahi - I'm a passionate riddle solver! :mag_right:
+* Ana 
+* Christian 
+* Klaus
+* Shahi
   
 And we are Data Practinioner Trainees at Neuefische Hamburg. 
 This is our group Project on the Financial Inclusion Data from Zindi.  
