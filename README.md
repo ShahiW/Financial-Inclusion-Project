@@ -70,7 +70,7 @@ pip install -r requirements.txt
 ```
 
 To see the web app you have to first install streamlit and create a virtual environment. Then copy the files from the streamlit folder of this repo into your local streamlit folder. 
-Run the python file to run the web app on localhost. 
+Run the python file to run the web app on localhost. (`streamlit run Project-fi.py`)
 
 ## Usage
 
