@@ -1,81 +1,50 @@
-# Template Repo for ML Project
+# Financial Inclusion Project (Zindi Competition - closed)
 
-This template repo will give you a good starting point for your second project. Besides the files used for creating a virtual environment, you will find a simple example of how to build a simple model in a python script. This is maybe the simplest way to do it. We train a simple model in the jupyter notebook, where we select only some features and do minimal cleaning. The output is then stored in simple python scripts.
+<div id="header" align="center">
+  <img src= 'https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif' width=400>
+</div>
 
-The data used for this is: [coffee quality dataset](https://github.com/jldbc/coffee-quality-database).
+<br>
 
----
+## Introduction
+We are:
+* Ana 
+* Christian 
+* Klaus
+* Shahi
+  
+And we are Data Practinioner Trainees at Neuefische Hamburg. 
+This is our group Project on the Financial Inclusion Data from Zindi.  
+<br>
 
-## Set up a Kanban board on github
+## Topic of this project:
 
-Go to ML-Project Template.
+Financial inclusion remains one of the main obstacles to economic and human development in Africa. For example, across Kenya, Rwanda, Tanzania, and Uganda only 9.1 million adults (or 14% of adults) have access to or use a commercial bank account.
 
-Click on "Use this Template" (Green button)
-![alt text](./images/step_1a.png)
+Traditionally, access to bank accounts has been regarded as an indicator of financial inclusion. Despite the proliferation of mobile money in Africa, and the growth of innovative fintech solutions, banks still play a pivotal role in facilitating access to financial services. Access to bank accounts enable households to save and make payments while also helping businesses build up their credit-worthiness and improve their access to loans, insurance, and related services. Therefore, access to bank accounts is an essential contributor to long-term economic growth.
 
-Create new project with relevant name, the owner should be your own account and **not** Neuefische. 
+__The objective of this project is to create a machine learning model to predict which individuals are most likely to have or use a bank account.__ The models and solutions developed can provide an indication of the state of financial inclusion in Kenya, Rwanda, Tanzania and Uganda, while providing insights into some of the key factors driving individuals’ financial security.
 
-![alt text](./images/step_2.png)
+<br>
 
-In your newly create repo, navigate to "Projects", and then click on "Add project" (green button). Normally you don't have created a project yet, so you can click the arrow navigation to create project on your profile. This project can be added at the end to your repository.
-![alt text](./images/add_project.png)
+## Data Overview
 
+| column | additional information |
+|--------|------------------------|
+| country | Country interviewee is in |
+| year | Year survey was done in  |
+| uniqueid | Unique identifier for each interviewee | 
+| location_type | Type of location: Rural, Urban |
+| cellphone_access | If interviewee has access to a cellphone: Yes, No |
+| household_size | Number of people living in one house |
+| age_of_respondent | The age of the interviewee |
+| gender_of_respondent | Gender of interviewee: Male, Female | 
+| relationship_with_head | The interviewee’s relationship with the head of the house:Head of Household, Spouse, Child, Parent, Other relative, Other non-relatives, Dont know |
+| marital_status | The martial status of the interviewee: Married/Living together, Divorced/Seperated, Widowed, Single/Never Married, Don’t know |
+| education_level | Highest level of education: No formal education, Primary education, Secondary education, Vocational/Specialised training, Tertiary education, Other/Dont know/RTA |
+| job_type | Type of job interviewee has: Farming and Fishing, Self employed, Formally employed Government, Formally employed Private, Informally employed, Remittance Dependent, Government Dependent, Other Income, No Income, Dont Know/Refuse to answer |
 
-You will be guided to your profiles projects. Click here on the green button "New project" to create a new project. Choose "board" view and **not** "table" view, then click "create".
-Good, now you have a board view. 
-![alt text](./images/boardview.png)
-
-Now change the name of your board, to match that of your chosen ML project. 
-
-Next, assign rights to all your team members by clicking on the 3 dots on the top right of the board, and then go to "settings". 
-
-Next, click on "Manage Access"
-Add your team mates by Searching for their github handle in the search window.
-
-Change their Role from ‘View’ to ‘Admin’. 
-Click on the green button “Invite” to add them. Repeat for all team members.
-![alt text](./images/team_access.png
-)
-
-Next, add action items with the relevant name e.g. “load data”, "get statistics", etc.
-
-Convert added item to issue by clicking on the 3 dots on the particular added item.
-
-Then select the repo you created in step3 for the issue to be added. (Select the project repo example “Fraud detection”)
-
-
-
-When in project repo, Go to issues, then go to milestones. 
-
-Click on ”Add milestone”.
-
-Give the milestone a due date and description as per the example provided by the coaches. 
-
-Add description of: 
-
-A) What needs to be completed to be done with the milestone
-
-B) The definition of done: what will your result look like when you have completed the milestone? (check the provided format)
-![alt text](./images/create_milestone.png)
-
-Now navigate to "issues".
-
-Assign issues to milestones, give it assignees (people who will work on the task). 
-![alt text](./images/tasks_to_mileston.png)
-
-### Optional: Add workflows
-
-Workflows can help you keep your kanban board automatically on track. 
-
-Select the project created in the steps above.  
-
-Click on the 3 dots to the far right of the board (...)
-
-Select workflow as the first option. 
-
-Activate the ones you feel necessary to your project
-
-Go back to your project repository (fraud detection))
+<br>
 
 ## Requirements and Environment
 
@@ -115,17 +84,3 @@ python example_files/predict.py models/linear_regression_model.sav data/X_test.c
 
 Development libraries are part of the production environment, normally these would be separate as the production code should be as slim as possible.
 
-# Definitions of the features in our Dataset
-
-__country:__ Country interviewee is in.
-__year:__ Year survey was done in.
-__uniqueid:__ Unique identifier for each interviewee
-__location_type:__ Type of location: Rural, Urban
-__cellphone_access:__ If interviewee has access to a cellphone: Yes, No
-__household_size:__ Number of people living in one house
-__age_of_respondent:__ The age of the interviewee
-__gender_of_respondent:__ Gender of interviewee: Male, Female
-__relationship_with_head:__ The interviewee’s relationship with the head of the house:Head of Household, Spouse, Child, Parent, Other relative, Other non-relatives, Dont know
-__marital_status:__ The martial status of the interviewee: Married/Living together, Divorced/Seperated, Widowed, Single/Never Married, Don’t know
-__education_level:__ Highest level of education: No formal education, Primary education, Secondary education, Vocational/Specialised training, Tertiary education, Other/Dont know/RTA
-__job_type:__ Type of job interviewee has: Farming and Fishing, Self employed, Formally employed Government, Formally employed Private, Informally employed, Remittance Dependent, Government Dependent, Other Income, No Income, Dont Know/Refuse to answer"
