@@ -50,11 +50,12 @@ We also built a web app via streamlit.
 
 ## Requirements and Environment
 
-Requirements:
+Requirements for notebooks:
 - pyenv with Python: 3.11.3
 
-Streamlit requirements
-- 
+Streamlit requirements:
+scikit-learn==1.2.2
+streamlit==1.24.1
 
 Environment: 
 
@@ -67,6 +68,9 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+
+To see the web app you have to first install streamlit and create a virtual environment. Then copy the files from the streamlit folder of this repo into your local streamlit folder. 
+Run the python file to run the web app on localhost. 
 
 ## Usage
 
