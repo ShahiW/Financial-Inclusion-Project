@@ -25,6 +25,8 @@ Traditionally, access to bank accounts has been regarded as an indicator of fina
 
 __The objective of this project is to create a machine learning model to predict which individuals are most likely to have or use a bank account.__ The models and solutions developed can provide an indication of the state of financial inclusion in Kenya, Rwanda, Tanzania and Uganda, while providing insights into some of the key factors driving individuals’ financial security.
 
+We also built a web app via streamlit.
+
 <br>
 
 ## Data Overview
@@ -48,8 +50,12 @@ __The objective of this project is to create a machine learning model to predict
 
 ## Requirements and Environment
 
-Requirements:
+Requirements for notebooks:
 - pyenv with Python: 3.11.3
+
+Streamlit requirements:
+scikit-learn==1.2.2
+streamlit==1.24.1
 
 Environment: 
 
@@ -62,6 +68,9 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+
+To see the web app you have to first install streamlit and create a virtual environment. Then copy the files from the streamlit folder of this repo into your local streamlit folder. 
+Run the python file to run the web app on localhost. (`streamlit run Project-fi.py`)
 
 ## Usage
 
